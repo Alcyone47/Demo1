@@ -11,18 +11,25 @@ body{
     height: 55vh;
     width: 75vw;
     border-radius: 20px;
-    display: flexbox;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    min-height: fit-content;
+}
+
+.card__left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    font-size: 17px;
 }
 
 .card__right{
     width: 50%;
-}
-
-.card__right__img{
-    width: 100%;
-    height: auto;
-    overflow: hidden;
+    height: 100%;
 }
