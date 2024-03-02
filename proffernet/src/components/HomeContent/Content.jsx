@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navigate, useNavigate } from 'react-router-dom';
+import landing_img from '../../assets/landing_img.svg';
 
 const Content = () => {
     const navigate = useNavigate();
@@ -25,7 +26,7 @@ const Content = () => {
                 
                 <div className="content-right">
                     <div className="image-container">
-                        {/* <img src="./images/usgs-hoS3dzgpHzw-unsplash.jpg" alt="sectionImage" className="section-image" /> */}
+                        <img src={landing_img} alt="sectionImage" className="section-image" />
                     </div>
                 </div>
             </section>
@@ -34,3 +35,4 @@ const Content = () => {
 }
 
 export default Content;
+//waht is the path of landing_img.svg

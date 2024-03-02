@@ -2,6 +2,8 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../CSS/SignIn.css';
 
+
+
 const SignIn = () => {
   const navigate = useNavigate();
 
@@ -17,14 +19,14 @@ const SignIn = () => {
 
   return (
     <>
-      <div>SignIn</div>
+      <div></div>
       <div className='card'>
         <div className='card__left'>
           <div className='card__info'>
-            <div id='logo'>X</div>
+            <div id='logo'></div>
             <div id='top_text'>
               <h2>Welcome back!</h2>
-              <p id='message'>Sign in into your account.</p>
+              <p id='message'></p>
             </div>
           </div>
 
@@ -37,15 +39,24 @@ const SignIn = () => {
               Password
               <input className='input__area' type="password" />
             </div>
+            <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </div>
             <div className='btn__container'>
               <button onClick={handleLogin}>Log In</button>
-              <div>
-                Or <a onClick={handleSignup}>Sign Up</a>
-              </div>
+              
             </div>
           </div>
         </div>
-        <div className='card__right'></div>
+        <div className='card__right'>
+          <div className='card__info'>
+            <div id='logo'></div>
+              <img src="../../assets/signin.svg" alt="SignInlogo" className="si" />
+          </div>
+         
+        </div>
       </div>
     </>
   );

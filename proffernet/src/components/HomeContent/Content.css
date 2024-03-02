@@ -13,6 +13,7 @@
     text-align: center;
     animation: slideFromLeft 1s ease forwards;
     opacity: 0;
+    padding: 1rem;
 }
 
 @keyframes slideFromLeft {
@@ -85,6 +86,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 15px 50px 30px 5px;
+    border: 2px solid var(--primary-color);
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    
+
 }
 
 
@@ -99,4 +105,7 @@
 .section-image{
     height: 100%;
     width: 100%;
+    background-color: rgb(26, 26, 26);
+  
+    
 }
