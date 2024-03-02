@@ -8,14 +8,9 @@ const Home = () => {
     const navigate = useNavigate();
     return (
         <>
-           
             <Navbar/>
-         
             <Footer/>
-    
-    
-   
-</>
+        </>
     )
 }
 

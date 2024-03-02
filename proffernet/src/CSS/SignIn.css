@@ -86,10 +86,16 @@ p{
     justify-content: space-between;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+a:hover{
+    cursor: pointer;
 }
 
 button{
     margin-top: 2em;
+    margin-bottom: 0.5em;
     width: 20vw;
     max-width: 90%;
 }
