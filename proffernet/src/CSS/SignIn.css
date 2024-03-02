@@ -9,7 +9,7 @@ body{
 .card{
     background-color: rgb(98, 98, 98);
     height: 55vh;
-    width: 75vw;
+    width: 60vw;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -23,13 +23,73 @@ body{
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    padding-right: 2em;
 }
 
 p{
     font-size: 17px;
 }
 
+.card__info{
+    height: 30%;
+    padding-bottom: 0;
+    width: auto;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    min-height: 50%;
+    justify-content: space-around;
+    width: auto;
+    padding-top: 0;
+    margin-top: 0;
+    width: auto;
+}
+
+.input__field{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 1.5em;
+}
+
+.input__area{
+    width: 90%;
+    font-size: 1em;
+    padding: 1em;
+    border-radius: 10px;
+    outline: none;
+    border: transparent solid 1px;
+    margin: 0;
+    margin-top: 0.5em;
+}
+
+.input__area:hover{
+    border: #b3b3b3 1px solid;
+}
+
+.input__area:focus{
+    border: rgb(59, 91, 255) 1px solid;
+}
+
 .card__right{
     width: 50%;
     height: 100%;
+}
+
+.btn__container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin-top: 2em;
+    width: 20vw;
+    max-width: 90%;
 }
