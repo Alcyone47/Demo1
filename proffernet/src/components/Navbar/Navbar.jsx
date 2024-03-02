@@ -10,8 +10,8 @@ const Navbar = () => {
         <header class="header-content">
 
             <a href="#logo" class="logo">
-                {/* <img src="./images/StudySyn.svg" alt="logoImage" class="logo-icon" />
-                <span class="logo-text">StudySync</span> */}
+                {/* <img src="./images/StudySyn.svg" alt="logoImage" class="logo-icon" /> */}
+                <span class="logo-text">ProfferNet</span>
             </a>
 
             <nav class="nav">

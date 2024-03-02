@@ -13,7 +13,7 @@ const Content = () => {
             </p>
             <div class="button-group">
                 <a href="#start" class="start-button">Start Now</a>
-                <a href="#tour" class="tour-button">Take Tour</a>
+                <a href="#tour" class="tour-button">Sign In</a>
             </div>
         </div>
         
