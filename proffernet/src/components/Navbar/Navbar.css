@@ -20,7 +20,7 @@
 }
 
 body{
-    height: 100vh;
+    height: auto;
     text-align: center;
     background-color: var(--background-color);
     padding: 0.1rem;
@@ -37,6 +37,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    height: 3.625rem;
 }
 
 .logo{

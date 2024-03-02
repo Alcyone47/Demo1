@@ -27,7 +27,7 @@ const Navbar = () => {
             </a>
 
             <button type="button" class="menu-button">
-                <img src="./images/Hamburger.svg" alt="menuButton" class="menu-icon" />
+                {/* <img src="./images/Hamburger.svg" alt="menuButton" class="menu-icon" /> */}
             </button>
 
         </header>
