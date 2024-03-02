@@ -8,8 +8,13 @@ const SignIn = () => {
         <>
             <div>SignIn</div>
             <div className='card'>
-                <div className='top-switch'>
-                    <div className=''></div>
+                <div className='card__left'>
+                    
+                </div>
+                <div className='card__right'>
+                    <div className='card__right__img'>
+                        <img src='' alt="" />
+                    </div>
                 </div>
             </div>
         </>
