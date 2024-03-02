@@ -5,7 +5,15 @@ import '../CSS/SignIn.css'
 const SignIn = () => {
     const navigate = useNavigate();
     return (
-        <div>SignIn</div>
+        <>
+            <div>SignIn</div>
+            <div className='card'>
+                <div className='top-switch'>
+                    <div className=''></div>
+                </div>
+            </div>
+        </>
+        
     )
 }
 
