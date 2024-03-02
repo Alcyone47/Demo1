@@ -7,8 +7,8 @@ body{
 }
 
 .card{
-    background-color: rgb(98, 98, 98);
-    height: 55vh;
+    background-color: rgb(70, 65, 80);
+    height: 45vh;
     width: 60vw;
     border-radius: 20px;
     display: flex;
@@ -65,10 +65,11 @@ p{
     border: transparent solid 1px;
     margin: 0;
     margin-top: 0.5em;
+    background-color: #262626;
 }
 
 .input__area:hover{
-    border: #b3b3b3 1px solid;
+    border: #262626 1px solid;
 }
 
 .input__area:focus{

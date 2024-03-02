@@ -31,7 +31,7 @@ body{
 } */
 
 .header-content{
-    max-width: 1280px;
+    
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -48,6 +48,7 @@ body{
     color: var(--text-color);
     text-decoration:none ;
     gap: 0.625rem;
+    padding: initial;
 }
 
 .logo-icon{
