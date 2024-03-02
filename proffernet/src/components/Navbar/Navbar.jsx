@@ -1,5 +1,7 @@
 import React from 'react'
 import './Navbar.css'
+import Footer from '../Footer/Footer'
+import Home from '../../pages/Home'
 
 const Navbar = () => {
     return (
@@ -29,6 +31,8 @@ const Navbar = () => {
             </button>
 
         </header>
+        <Home/>
+        <Footer/>
 
     </div>
     )

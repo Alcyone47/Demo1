@@ -2,3 +2,17 @@ body{
     background-color: black;
     color: white;
 }
+/* .header{ */
+/*     border: 1px solid black; */
+/* } */
+
+
+.main-section{
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0.6rem;
+    align-items: center;
+    margin: 0 auto;
+}
