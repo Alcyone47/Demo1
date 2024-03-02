@@ -1,27 +1,20 @@
-import { useEffect, useState } from "react";
-import { supabase } from "../supabase";
 import './App.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from "./pages/Home";
+import SignUp from './pages/SignUp';
+import SignIn from './pages/SignIn';
 
 function App() {
-  const [count, setCount] = useState(0)
-  const [countries, setCountries] = useState([]);
-
-    useEffect(() => {
-      getCountries();
-    }, []);
-
-    async function getCountries() {
-      const { data } = await supabase.from("countries").select();
-      setCountries(data);
-    }
 
   return (
     <>
-      <ul>
-        {countries.map((country) => (
-          <li key={country.name}>{country.name}</li>
-        ))}
-      </ul>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/signup" element={<SignUp/>}/>
+          <Route path="/signin" element={<SignIn/>}/>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
