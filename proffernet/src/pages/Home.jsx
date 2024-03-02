@@ -7,7 +7,7 @@ import Footer from '../components/Footer/Footer'
 const Home = () => {
     const navigate = useNavigate();
     return (
-        <div>
+        <>
            
             <Navbar/>
             {/* <Footer/> */}
@@ -36,7 +36,7 @@ const Home = () => {
         </section>
     </div>
    
-</div>
+</>
     )
 }
 
