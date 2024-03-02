@@ -31,8 +31,7 @@ const Navbar = () => {
             </button>
 
         </header>
-        <Home/>
-        <Footer/>
+        
 
     </div>
     )
