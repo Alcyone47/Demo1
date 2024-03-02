@@ -29,7 +29,7 @@ const SignUp = () => {
             </div>
           
             <div className='btn__container'>
-              <button onClick={handleSignup}>Sign Up</button>
+              <button>Sign Up</button>
               
             </div>
           </div>
