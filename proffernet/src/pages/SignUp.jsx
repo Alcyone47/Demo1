@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../CSS/SignUp.css';
@@ -6,6 +7,15 @@ import signin from '../assets/signin.svg';
 
 const SignUp = () => {
   const navigate = useNavigate();
+=======
+import React from 'react'
+
+const SignUp = () => {
+  return (
+    <div>SignUp</div>
+  )
+}
+>>>>>>> ab9a3f59962e4acc3694e641bf6ec7437aa9c2be
 
   const handleSignup = () => {
     // Perform authentication logic if needed
