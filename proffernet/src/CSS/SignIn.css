@@ -4,10 +4,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .card{
-    background-color: rgb(70, 65, 80);
+    background-color: rgb(46, 45, 48);
     height: 45vh;
     width: 60vw;
     border-radius: 20px;
@@ -99,4 +100,13 @@ button{
     margin-bottom: 0.5em;
     width: 20vw;
     max-width: 90%;
+}
+.si{
+    border-radius: 15px 2px 5px 15px;
+    color: white;
+    border: transparent solid 1px;
+    border-radius: 10px;
+    padding: 1em;
+    font-size: 1em;
+    outline: none;
 }

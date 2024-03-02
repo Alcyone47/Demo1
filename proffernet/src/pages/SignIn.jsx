@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../CSS/SignIn.css';
 
-
+import signin from '../assets/signin.svg';
 
 const SignIn = () => {
   const navigate = useNavigate();
@@ -39,11 +39,7 @@ const SignIn = () => {
               Password
               <input className='input__area' type="password" />
             </div>
-            <div class="social-container">
-                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-            </div>
+          
             <div className='btn__container'>
               <button onClick={handleLogin}>Log In</button>
               
@@ -52,8 +48,10 @@ const SignIn = () => {
         </div>
         <div className='card__right'>
           <div className='card__info'>
-            <div id='logo'></div>
-              <img src="../../assets/signin.svg" alt="SignInlogo" className="si" />
+            <div id='logo'>
+              {/* <img src={signin} alt="SignInlogo" className="si" /> */}
+            </div>
+              
           </div>
          
         </div>

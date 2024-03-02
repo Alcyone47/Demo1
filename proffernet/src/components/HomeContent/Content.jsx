@@ -8,8 +8,12 @@ const Content = () => {
     const handleSignIn = () => {
         navigate('/SignIn');
     }
+    const handleSignup = () => {
+        navigate('/SignUp');
+    }
     
     return (
+  <>
         <div className="content">
             <section className="main-section">
                 <div className="content-left">
@@ -19,7 +23,7 @@ const Content = () => {
                         Our innovative platform offers an effortless and seamless approach to learning, empowering volunteers and organizers to match up their skills to achieve their goal project. Join us on a transformative journey to unlock your full potential.
                     </p>
                     <div className="button-group">
-                        <a href="#start" className="start-button">Start Now</a>
+                        <a href="#start" className="start-button">Sign Up</a>
                         <a onClick={handleSignIn} className="tour-button">Sign In</a>
                     </div>
                 </div>
@@ -31,6 +35,7 @@ const Content = () => {
                 </div>
             </section>
         </div>
+</>
     );
 }
 
