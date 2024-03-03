@@ -6,7 +6,7 @@
     padding: 3.8em;
     align-items: center;
     margin: 0 auto;
-    
+    flex-direction: row;
 }
 
 .content-left{
@@ -61,12 +61,11 @@
     
     border: none;
     border-radius: 0.375rem;
-    background-color: var(--primary-color);
-    color: var(--background-color);
     transform: all  0.1s;
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
     font-weight: 600;
+    transition: all 0.2s;
 }
 
 .tour-button{
@@ -74,11 +73,14 @@
 }
 
 .start-button:hover{
-    background-color: #5254f8;
+    background-color: #3639ec;
+    color: white;
+    transition: all 0.2s;
 }
 
 .tour-button:hover{
     background-color: var(--gray);
+    color: black;
 }
 
 
