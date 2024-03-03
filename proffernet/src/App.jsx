@@ -5,6 +5,7 @@ import SignUp from './pages/SignUp';
 import SignIn from './pages/SignIn';
 import Events from './pages/Events';
 import Organisers from './pages/Organisers';
+import Categories from './pages/Categories';
 
 function App() {
 
@@ -16,7 +17,8 @@ function App() {
           <Route path="/signup" element={<SignUp/>}/>
           <Route path="/signin" element={<SignIn/>}/>
           <Route path="/events" element={<Events/>}></Route>
-          <Route path="/organisers" element="<Organisers/>"></Route>
+          <Route path="/organisers" element={<Organisers/>}></Route>
+          <Route path="/categories" element={<Categories/>}></Route>
         </Routes>
       </BrowserRouter>
     </>

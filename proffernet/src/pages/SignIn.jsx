@@ -93,7 +93,7 @@ const SignIn = () => {
         <div className='card__right'>
           <div className='card__info'>
             <div id='logo'></div>
-            {/* <img src="../../assets/signin.svg" alt="SignInlogo" className="si" /> */}
+            <img src={signin} alt="SignInlogo" className="si" />
           </div>
         </div>
       </div>

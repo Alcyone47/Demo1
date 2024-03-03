@@ -23,7 +23,7 @@ const SignUp = () => {
           <div className='card__info'>
             <div id='logo'></div>
             <div id='top_text'>
-              <h2>Welcome back!</h2>
+              <h2>Welcome </h2>
               <p id='message'></p>
             </div>
           </div>
@@ -50,7 +50,7 @@ const SignUp = () => {
         <div className='card__left'>
           <div className='card__info'>
             <div id='logo'>
-                {/* <img src={signin} alt="SignInlogo" className="si" />   */}
+                <img src={signin} alt="SignInlogo" className="si" />  
             </div>
               
           </div>

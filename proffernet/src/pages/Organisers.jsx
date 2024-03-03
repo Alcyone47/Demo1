@@ -4,14 +4,16 @@ import img2 from '../img/team-2.jpg';
 import img3 from '../img/team-3.jpg';
 import img4 from '../img/team-4.jpg';
 import '../CSS/Organisers.css';
+import { useNavigate } from 'react-router-dom';
 
 const FileOrganiser = () => {
+    const navigate = useNavigate();
     return (
         <div className="container-xxl py-5">
             <div className="container">
                 <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 className="section-title bg-white text-center text-primary px-3">Instructors</h6>
-                    <h1 className="mb-5">Expert Instructors</h1>
+                    <h6 className="section-title bg-white text-center text-primary px-3">Organisers</h6>
+                   
                 </div>
                 <div className="row g-4">
                     {/* Instructor 1 */}
