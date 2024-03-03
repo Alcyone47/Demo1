@@ -1,13 +1,12 @@
-body{
+body {
     background-color: rgb(26, 26, 26);
     color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
-.card{
+.card {
     background-color: rgb(46, 45, 48);
     height: 45vh;
     width: 60vw;
@@ -19,7 +18,7 @@ body{
     min-height: fit-content;
 }
 
-.card__left{
+.card__left {
     width: 50%;
     height: 100%;
     display: flex;
@@ -28,17 +27,17 @@ body{
     padding-right: 2em;
 }
 
-p{
+p {
     font-size: 17px;
 }
 
-.card__info{
+.card__info {
     height: 30%;
     padding-bottom: 0;
     width: auto;
 }
 
-.input{
+.input {
     display: flex;
     flex-direction: column;
     min-height: 50%;
@@ -46,10 +45,9 @@ p{
     width: auto;
     padding-top: 0;
     margin-top: 0;
-    width: auto;
 }
 
-.input__field{
+.input__field {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -57,7 +55,7 @@ p{
     margin-top: 1.5em;
 }
 
-.input__area{
+.input__area {
     width: 90%;
     font-size: 1em;
     padding: 1em;
@@ -69,20 +67,20 @@ p{
     background-color: #262626;
 }
 
-.input__area:hover{
+.input__area:hover {
     border: #262626 1px solid;
 }
 
-.input__area:focus{
+.input__area:focus {
     border: rgb(59, 91, 255) 1px solid;
 }
 
-.card__right{
+.card__right {
     width: 50%;
     height: 100%;
 }
 
-.btn__container{
+.btn__container {
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -91,22 +89,24 @@ p{
     flex-direction: column;
 }
 
-a:hover{
+a:hover {
     cursor: pointer;
 }
 
-button{
+button {
     margin-top: 2em;
     margin-bottom: 0.5em;
     width: 20vw;
     max-width: 90%;
 }
-.si{
+
+.si {
     border-radius: 15px 2px 5px 15px;
-    /* color: white;
+    /* Additional styles can be uncommented here
+    color: white;
     border: transparent solid 1px;
     border-radius: 10px;
     padding: 1em;
     font-size: 1em;
-    outline: none; */ */
+    outline: none; */
 }

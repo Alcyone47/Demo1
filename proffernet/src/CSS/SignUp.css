@@ -19,7 +19,7 @@ body{
     min-height: fit-content;
 }
 
-.card__right{
+.card__left{
     width: 50%;
     height: 100%;
     display: flex;
@@ -77,7 +77,7 @@ p{
     border: rgb(59, 91, 255) 1px solid;
 }
 
-.card__left{
+.card__right{
     width: 50%;
     height: 100%;
 }
