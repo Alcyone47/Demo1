@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navigate, useNavigate } from 'react-router-dom';
 import landing_img from '../../assets/landing_img.svg';
+import './Content.css';
 
 const Content = () => {
     const navigate = useNavigate();
