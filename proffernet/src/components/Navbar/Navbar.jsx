@@ -15,11 +15,11 @@ const Navbar = () => {
             </a>
 
             <nav class="nav">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#features" class="nav-link">Features</a>
-                <a href="#pricing" class="nav-link">Pricing</a>
-                <a href="#blog" class="nav-link">Blog</a>
-                <a href="#about" class="nav-link">About</a>
+               
+                <a href="#event" class="nav-link">Event</a>
+                <a href="#volunters" class="nav-link">Volunters</a>
+                <a href="#organisers" class="nav-link">Organisers</a>
+                
             </nav>
 
             <a href="#contact" class="contact-button">

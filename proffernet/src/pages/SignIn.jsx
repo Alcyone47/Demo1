@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import '../CSS/SignIn.css';
 import { createClient } from '@supabase/supabase-js';
 
-
 import signin from '../assets/signin.svg';
+
 const supabaseUrl = 'https://swvvgzzinqsawjmzqdhe.supabase.co';
 const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN3dnZnenppbnFzYXdqbXpxZGhlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDkzNDc3MTUsImV4cCI6MjAyNDkyMzcxNX0.crgwM73Ce0J8ok9bqbdsZMRbEnBwT-Gz5cYFZvBV7FQ';
 
@@ -85,7 +85,6 @@ const SignIn = () => {
               <a href="#" className="social"><i className="fab fa-google-plus-g"></i></a>
               <a href="#" className="social"><i className="fab fa-linkedin-in"></i></a>
             </div>
-
             <div className='btn__container'>
               <button onClick={handleLogin}>Log In</button>
             </div>
@@ -93,15 +92,8 @@ const SignIn = () => {
         </div>
         <div className='card__right'>
           <div className='card__info'>
-
-            <div id='logo'>
-              {/* <img src={signin} alt="SignInlogo" className="si" /> */}
-            </div>
-              
-
             <div id='logo'></div>
             <img src="../../assets/signin.svg" alt="SignInlogo" className="si" />
-
           </div>
         </div>
       </div>
