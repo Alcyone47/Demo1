@@ -78,6 +78,7 @@ body{
     font-size: 1.125rem;
     font-weight: 600;
     transform: color 0.1s;
+    transition: all 0.2s;
 }
 
 .nav-link:hover{
