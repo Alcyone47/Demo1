@@ -62,7 +62,7 @@ const Footer = () => {
                                 <a href="#overview" class="footer-link">About</a>
                             </li>
                             <li>
-                                <a href="#overview" class="footer-link">Investor Relations</a>
+                                <a href="#overview" class="footer-link">Investors</a>
                             </li>
                             <li>
                                 <a href="#overview" class="footer-link">Jobs</a>

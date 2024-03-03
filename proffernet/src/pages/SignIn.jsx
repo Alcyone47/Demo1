@@ -34,7 +34,7 @@ const SignIn = () => {
 
       if (!username || !password) {
         // Add input validation, ensure both username and password are provided
-        console.error('Username and password are required');
+        alert('Username and password are required');
         return;
       }
 
@@ -44,13 +44,13 @@ const SignIn = () => {
       });
 
       if (error) {
-        console.error('Sign in error:', error.message);
+        alert('Sign in error:', error.message);
       } else {
         console.log('Signed in successfully:', user);
         navigate('/');
       }
     } catch (error) {
-      console.error('Sign in error:', error.message);
+      alert('Sign in error:', error.message);
     }
   };
 
@@ -93,7 +93,7 @@ const SignIn = () => {
         <div className='card__right'>
           <div className='card__info'>
             <div id='logo'></div>
-            <img src="../../assets/signin.svg" alt="SignInlogo" className="si" />
+            {/* <img src="../../assets/signin.svg" alt="SignInlogo" className="si" /> */}
           </div>
         </div>
       </div>

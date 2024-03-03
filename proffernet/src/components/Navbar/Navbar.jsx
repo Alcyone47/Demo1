@@ -2,8 +2,12 @@ import React from 'react'
 import './Navbar.css'
 import Footer from '../Footer/Footer'
 import Home from '../../pages/Home'
+import { Navigate } from 'react-router-dom'
 
 const Navbar = () => {
+    const handleOrganisers = () => {
+        Navigate('/organisers')
+    }
     return (
         <div class="header">
 
@@ -18,7 +22,8 @@ const Navbar = () => {
                
                 <a href="#event" class="nav-link">Event</a>
                 <a href="#volunters" class="nav-link">Volunters</a>
-                <a href="#organisers" class="nav-link">Organisers</a>
+                <a onClick={handleOrganisers}  class="nav-link">Organisers</a>
+                
                 
             </nav>
 
