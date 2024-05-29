@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
 
         <div class="footer-grid">
-                  
+
             <div class="footer-grid-column">
                         <div class="footer-grid-heading">
                             Products
@@ -52,28 +52,28 @@ const Footer = () => {
                             </li>
                         </ul>
             </div>
-                  
+
             <div class="footer-grid-column">
-                        <div class="footer-grid-heading">
-                            Company
-                        </div>
-                        <ul class="footer-links-list">
-                            <li>
-                                <a href="#overview" class="footer-link">About</a>
-                            </li>
-                            <li>
-                                <a href="#overview" class="footer-link">Investors</a>
-                            </li>
-                            <li>
-                                <a href="#overview" class="footer-link">Jobs</a>
-                            </li>
-                            <li>
-                                <a href="#overview" class="footer-link">Press</a>
-                            </li>
-                            <li>
-                                <a href="#overview" class="footer-link">Blog</a>
-                            </li>
-                        </ul>
+                <div class="footer-grid-heading">
+                Company
+                </div>
+                    <ul class="footer-links-list">
+                        <li>
+                            <a href="#overview" class="footer-link">About</a>
+                        </li>
+                        <li>
+                            <a href="#overview" class="footer-link">Investors</a>
+                        </li>
+                        <li>
+                            <a href="#overview" class="footer-link">Jobs</a>
+                        </li>
+                        <li>
+                            <a href="#overview" class="footer-link">Press</a>
+                        </li>
+                        <li>
+                            <a href="#overview" class="footer-link">Blog</a>
+                        </li>
+                    </ul>
             </div>
                     
             <div class="footer-grid-column">
