@@ -95,7 +95,7 @@ const Footer = () => {
                             </li>
                         </ul>
             </div>
-                   
+
             <div class="footer-grid-column">
                         <div class="footer-grid-heading">
                             Legal
@@ -116,7 +116,7 @@ const Footer = () => {
         </div>
     </footer>
 </div>
-  )
+)
 }
 
 export default Footer
